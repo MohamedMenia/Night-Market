@@ -1,0 +1,47 @@
+.auth-container {
+  background-color: #fff;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  width: max-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input {
+  margin-bottom: 20px;
+  border: none;
+  background-color: #e5edf1;
+  width: 100%;
+  height: 30px;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.switchAuthForm {
+  margin: 0;
+  border: 0;
+  background-color: #fff;
+  color: rgb(2, 91, 255);
+}
+.switchAuthForm:hover {
+  cursor: pointer;
+}
+.authErrMsg {
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid rgb(138, 51, 51);
+  background: rgb(255, 213, 209);
+}
+
+.logInBtn {
+  background-color: #5a5a5a; /* Green */
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  width: 100%;
+  height: 30px;
+}

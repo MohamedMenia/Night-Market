@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e5edf1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #323232;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
