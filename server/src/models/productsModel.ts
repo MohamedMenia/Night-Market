@@ -24,14 +24,7 @@ const ProductsSchema = new Schema<TProducts>({
   category: {
     type: String,
     required: true,
-    enum: [
-      "Graphic Card",
-      "Storage",
-      "RAM",
-      "Processors",
-      "Computer Case",
-      "Accessories",
-    ],
+    enum: categories,
   },
   brand: { type: String, required: true },
   price: { type: Number, required: true },
